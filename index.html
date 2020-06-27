@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+	<div class="warp">
+	<table border="1">
+		<tr>
+			<td colspan="3"><input type="text" id="result"></td>
+			<td><input type="button" value="C"  onClick="clearscr()"></td>
+		</tr>
+		<tr>
+			<td><input type="button" value="1" onClick="showingValue('1')"></td>
+			<td><input type="button" value="2" onClick="showingValue('2')"></td>
+			<td><input type="button" value="3" onClick="showingValue('3')"></td>
+			<td><input type="button" value="+" onClick="showingValue('+')"></td>
+		</tr>
+		<tr>
+			<td><input type="button" value="4" onClick="showingValue('4')"></td>
+			<td><input type="button" value="5" onClick="showingValue('5')"></td>
+			<td><input type="button" value="6" onClick="showingValue('6')"></td>
+			<td><input type="button" value="-" onClick="showingValue('-')"></td>
+		</tr>
+		<tr>
+			<td><input type="button" value="7" onClick="showingValue('7')"></td>
+			<td><input type="button" value="8" onClick="showingValue('8')"></td>
+			<td><input type="button" value="9" onClick="showingValue('9')"></td>
+			<td><input type="button" value="/" onClick="showingValue('/')"></td>
+		</tr>
+		<tr>
+			<td><input type="button" value="*" onClick="showingValue('*')"></td>
+			<td><input type="button" value="0" onClick="showingValue('0')"></td>
+			<td><input type="button" value="." onClick="showingValue('.')"></td>
+			<td><input type="button" value="=" onClick="output()"></td>
+		</tr>
+	</table>
+	</div>
+</body>
+<script src="app.js"></script>
+</html>
